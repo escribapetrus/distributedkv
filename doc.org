@@ -1,0 +1,28 @@
+#+TITLE: Distributed KV
+
+Implementation of a distributed key-value store. Written in Rust.
+
+* Idea of a complete project
+
+When completed, this program should provide a database deployable in multiple
+nodes and accessible through a single API.
+
+In order to make storage permanent, we can store data in disk (write to files)
+
+* Idea of the program development
+
+Let's begin by writing a single node, single program, that stores and retrieves data
+from memory.
+
+Then, we can write the store to disk.
+
+Then, we can write the docker deployment.
+
+Then, we can write the distributed part, which I can't even now.
+
+
+
+ Let's start with a single node program that stores and retrieves
+ key-value pairs in memory. Let's write this in Rust, in two different modules
+ for the main entrypoint and the key-value store data structures, and compile it
+ to an executable binary.
